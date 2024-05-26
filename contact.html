@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact - Namin</title>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+   
+    
+	.hero {
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(rgba(12, 3, 51, 0.3), rgba(12, 3, 51, 0.3));
+        position: relative;
+        padding: 0 5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+		flex-direction: column;
+    }
+	.vid {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .contact-container {
+        background: rgba(42, 66, 172, 0.1);
+        border: 3px solid rgba(100, 104, 228, 0.5);
+        border-radius: 20px;
+        backdrop-filter: blur(15px);
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+        padding: 40px;
+        text-align: center;
+        max-width: 500px;
+        width: 100%;
+    }
+    .contact-container h2 {
+        margin-bottom: 20px;
+    }
+    .contact-container p {
+        margin-bottom: 20px;
+        color: #ccc;
+		display: center;
+	}
+    .contact-container a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 18px;
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 20px;
+        border: 2px solid #fff;
+        border-radius: 10px;
+        transition: background 0.3s, color 0.3s;
+    }
+    .contact-container a:hover {
+        background: #fff;
+        color: #3a95c5;
+    }
+</style>
+</head>
+<body>
+	<div class="hero">
+		<video autoplay loop muted plays-inline class="vid">
+			<source src="vid.mp4" type="video/mp4">
+		</video>
+<div class="contact-container">
+    <h2>Contact Me</h2>
+    <p>Feel free to reach out to me through any of the following methods:</p>
+    <p>Email: <a href="mailto:naminsrinandhanpazhaniarul@gmail.com">naminsrinandhanpazhaniarul@gmail.com</a></p>
+    <p>Phone: <a href="tel:+91 9360188390">+91 9360188390</a></p>
+    <p>LinkedIn: <a href="www.linkedin.com/in/namin-sri-nandhan-p-20b949213" target="_blank">Namin Sri Nandhan P</a></p>
+    <p>GitHub: <a href="https://github.com/Namin001" target="_blank">Namin</a></p>
+</div>
+</body>
+</html>
